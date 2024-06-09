@@ -1,0 +1,150 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+# Translations
+*.mo
+*.pot
+
+# Django migrations
+*/migrations/*
+*.seed
+*.sql
+*.db
+
+# Django static and media folders
+/static/
+/media/
+
+# Ignore the following folders which contain user-uploaded files
+/staticfiles/
+/mediafiles/
+/media_cdn/
+
+# Ignore the `venv` virtual environment folder
+venv/
+env/
+ENV/
+.vscode/
+.idea/
+.idea/*
+
+# Node modules
+node_modules/
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Ignore the JetBrains project folder
+.idea/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore the VSCode settings folder
+.vscode/
+
+# Pycharm files
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# Ignore coverage results
+.coverage
+.tox/
+.nox/
+
+# Ignore the virtual environment folders
+venv/
+ENV/
+env/
+env.bak/
+env/*
+
+# Ignore the staticfiles folder
+staticfiles/
+
+# Ignore the mediafiles folder
+mediafiles/
+
+# Ignore the pytest cache
+.pytest_cache/
+
+# Ignore .env files which may contain API keys and other secrets
+.env
+*.env
+.env.*
+
+# Ignore pipenv files
+Pipfile.lock
+
+# Ignore coverage reports
+htmlcov/
+coverage.xml
+
+# Ignore Jupyter Notebook files
+.ipynb_checkpoints
+*.ipynb
+
+# Ignore IDE workspace files
+.vscode/
+.idea/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore Pyre type checker directory
+.pyre/
+
+# Ignore other temporary files and directories
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+*.~ 
+*~
+
+# Ignore compiled code
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore C extensions
+*.so
+
+# Ignore mypy
+.mypy_cache/
+
+# Ignore Django migrations
+**/migrations/*
+
+# Ignore logs
+*.log
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore coverage results
+.coverage
+*.cover
+.hypothesis/
+.ionide/
+.pytest_cache/
+.coverage.*
